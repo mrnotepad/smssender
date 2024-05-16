@@ -73,7 +73,7 @@ class _SmsSenderState extends State<SmsSender> {
       });
       _handleMessages(); // Trigger the sender after fetching numbers and messages
     } else {
-      throw Exception('Failed to load phone numbers');
+      throw Exception('Failed to load phone numbers please check again');
     }
   }
 
