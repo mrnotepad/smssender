@@ -71,7 +71,7 @@ class _SmsSenderState extends State<SmsSender> {
                 })
             .toList();
       });
-      _handleMessages(); // Trigger the sender after fetching numbers
+      _handleMessages(); // Trigger the sender after fetching numbers and messages
     } else {
       throw Exception('Failed to load phone numbers');
     }
